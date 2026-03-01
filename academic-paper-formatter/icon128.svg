@@ -1,0 +1,24 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3367d6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" fill="url(#grad)" rx="20"/>
+  
+  <!-- Document icon -->
+  <g fill="white">
+    <rect x="32" y="26" width="64" height="8" rx="2"/>
+    <rect x="32" y="42" width="64" height="6" rx="2"/>
+    <rect x="32" y="54" width="48" height="6" rx="2"/>
+    <rect x="32" y="66" width="56" height="6" rx="2"/>
+    <rect x="32" y="78" width="44" height="6" rx="2"/>
+  </g>
+  
+  <!-- Magnifying glass overlay -->
+  <g fill="none" stroke="white" stroke-width="5">
+    <circle cx="88" cy="88" r="16"/>
+  </g>
+  <line x1="99" y1="99" x2="110" y2="110" stroke="white" stroke-width="6" stroke-linecap="round"/>
+</svg>
