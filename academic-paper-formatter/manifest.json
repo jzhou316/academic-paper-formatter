@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Academic Paper Formatter",
+  "version": "1.0",
+  "description": "Extract paper info and format for Google Docs or Markdown",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
